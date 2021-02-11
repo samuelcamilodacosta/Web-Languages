@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Curso de JavaScript</title>
+    </head>
+    <body>
+            <div id="app">
+            <ul>
+            </ul>
+            <input type="text" placeholder="Digite um nome">
+            <button>Adicionar</button>
+            </div>
+        <script>
+            var listElement = document.querySelector('#app ul');
+            var inputElement = document.querySelector('#app input');
+            var buttonElement = document.querySelector('#app button');
+            var nomes = ['Diego', 'Gabriel', 'Lucas'];
+            function renderNomes(){
+                listElement.innerHTML = '';
+                for(nome of nomes){
+                    var nomeElement = document.createElement('li');
+                    var nomeText = document.createTextNode(nome);
+                    nomeElement.appendChild(nomeText);
+                    listElement.appendChild(nomeElement);
+                }
+            }
+            renderNomes();
+            function addNome(){
+                var nomeText = inputElement.value;
+                nomes.push(nomeText);
+                inputElement.value = '';
+                renderNomes();
+            }
+            buttonElement.onclick = addNome;
+        </script>   
+    </body>
+</html>
