@@ -1,0 +1,8 @@
+@charset "UTF-8";
+#paragrafo{
+    border-style: ridge; /* dotted, dashed, solid, double, groove, ridge, inset, outset */
+    border-width: 8px;
+    border-color: red;
+    /* border-bottom: solid 8px red; */
+    outline: double 8px green;
+}

@@ -1,0 +1,10 @@
+@charset "UTF-8";
+#conteudo {
+    max-width: 500px;
+    min-width: 200px;
+    /*width: 500px;
+    height: 100px;*/
+    background-color: green;
+    color: #fff;
+    padding: 20px;
+}

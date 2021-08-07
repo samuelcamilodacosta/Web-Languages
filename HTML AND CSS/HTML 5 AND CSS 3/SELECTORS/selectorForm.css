@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/*Universal Selector*/
+*{ 
+    margin: 0; 
+    padding: 0; 
+    color:red; 
+}
+/*Selector TAG*/
+h1{
+    color: blue;
+    font-size: 50px;
+}
+p{
+    color: green;
+    font-size: 20px;
+}
+/* Atribute Selector name="enviar"*/
+input[type="text"]{
+    width: 200px;
+    background-color: #ccc;
+    height:40px;
+}
+input[type="e-mail"]{
+    width: 200px;
+    background-color: #ccc;
+    height:40px;
+}
+input[type="submit"]{
+    width: 50px;
+    background-color: rgb(28, 0, 128);
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+

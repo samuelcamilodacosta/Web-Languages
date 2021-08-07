@@ -1,0 +1,11 @@
+@charset "UTF-8";
+body{
+    background-image: url(leitura-1500.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*scroll*/
+    background-size: 60% 80%;
+    /*background-position: center;*/
+    /* background-repeat: x or y ;*/
+    color: white;
+    /*background-color: red;*/
+}

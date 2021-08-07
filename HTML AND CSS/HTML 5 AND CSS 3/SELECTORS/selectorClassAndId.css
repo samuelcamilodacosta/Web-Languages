@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/*Classe pode ser adicionado há vários elementos HTML*/
+.texto-principal {
+    color: rgb(85, 2, 85);
+    text-align: center;
+}
+.fundo-principal{
+    background-color: lime;
+    padding: 15px;
+}
+/*ID é único */
+#conteudo {
+    background-color: blue;
+    padding: 15px;
+    color: green;
+}

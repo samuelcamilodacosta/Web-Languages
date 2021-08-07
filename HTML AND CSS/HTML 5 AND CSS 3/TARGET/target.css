@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+.noticia:target{
+    background-color: #c3c3c3;
+    padding: 10px;
+}

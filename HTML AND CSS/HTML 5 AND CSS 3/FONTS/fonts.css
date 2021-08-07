@@ -1,0 +1,15 @@
+@charset "UTF-8";
+*{
+    font-size: 100%;
+}
+p{
+    font-family: Times, "Times New Roman", serif;
+    /*font-variant: small-caps; */
+    /*font-weight: bold;*/
+    font-style: italic; /* normal, oblique*/
+    font-size: 1em;
+    /*font-size: 16px; */
+    /*font-weight: normal; */
+    /*font-variant: normal*/
+    /*font-family: Arial, Verdana, sans-serif;*/
+}

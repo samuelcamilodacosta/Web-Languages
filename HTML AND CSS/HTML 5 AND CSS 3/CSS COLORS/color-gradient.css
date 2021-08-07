@@ -1,0 +1,11 @@
+@charset "UTF-8";
+#colors{
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(to top, red, blue, green);
+}
+#rad{
+    width: 350px;
+    height: 350px;
+    background: radial-gradient(purple, gray);
+}

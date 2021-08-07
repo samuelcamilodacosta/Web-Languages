@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.container{
+    background-color: red;
+    width: 500px;
+    /*display: table;*/
+    margin: 0 auto;
+}
+.container::before, .container::after{
+    content: '';
+    display: table;
+}
+.container::after{
+    clear:both;
+}
+.box1{
+    background-color: green;
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+.box2{
+    background-color: blue;
+    float: right;
+    width: 150px;
+    height: 150px;
+}

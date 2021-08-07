@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+p{
+    color: red;
+    text-transform: capitalize;
+    text-align: justify;
+    text-indent: 30px; /*Tab*/
+    line-height: 30px; /*Space in the middle of lines*/
+    direction: rtl;
+    letter-spacing: 10px;
+    word-spacing: 5px;
+}
+h1{
+    text-align: left;
+    text-decoration: underline;
+    text-transform: lowercase;
+    text-shadow: 3px 3px 4px red; /*com desfoco*/
+}
+h2{
+    text-align: right;
+    text-decoration: overline;
+    text-shadow: 3px 3px red;
+}
+h3{
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: uppercase;
+}
+/*To remove the line of links we can use text-decoration: none;*/

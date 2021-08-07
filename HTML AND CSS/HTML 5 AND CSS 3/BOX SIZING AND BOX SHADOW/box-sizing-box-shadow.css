@@ -1,0 +1,10 @@
+@charset "UTF-8";
+*{
+    box-sizing: border-box;
+}
+#conteudo{
+    box-shadow: 10px 10px 5px green;
+    background-color: red;
+    width: 300px;
+    padding: 20px;
+}

@@ -1,0 +1,10 @@
+@charset "UTF-8";
+#conteudo{
+    background-color: purple;
+    width: 300px;
+    height: 70px;
+    overflow: auto; /* visible, hidden, scroll */
+}
+#conteudo p{
+    opacity: 0.5; /* transparência */
+}
