@@ -1,0 +1,30 @@
+form,
+input {
+  border: 1px solid red;
+  width: 50%;
+}
+#item2 {
+  /*display: none;*/
+}
+#item3 {
+  /*visibility: hidden;*/
+}
+li {
+  /* display: inline*/
+}
+.container {
+  border: 1px solid green;
+  padding: 10px;
+  width: 400px;
+  height: 400px;
+}
+.box {
+  border: 1px solid blue;
+  display: inline;
+  overflow: none;
+}
+.primeiro {
+  position: fixed;
+  top: 50px;
+  left: 50px;
+}
